@@ -1,0 +1,26 @@
+# Config & Secrets
+lead_config.json
+service_account.json
+
+# Session files
+*.session
+lead_session.session
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Backup files
+*.bak
+*.bak-*
+lead_parser_до_*.py
+lead_parser_v*_old.py
+lead_parser_v*_backup.py
+
+# Data files
+*.csv
+*.json
+!requirements.txt
+
+# Logs
+*.log
